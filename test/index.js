@@ -5,6 +5,7 @@ const gutil = require('gulp-util');
 const PluginError = gutil.PluginError;
 const colors = require('colors');
 
+
 function gulpImg(options) {
 
     let config={
