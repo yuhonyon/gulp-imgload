@@ -40,13 +40,11 @@ function gulpImg (options) {
                 if (err) {
                   console.log((err + file.path + "修改格式失败").red);
                 }
-
                 file.contents = buffer;
                 that.push(file);
                 cb();
               });
             } else {
-              file.contents = buffer;
               that.push(file);
               cb();
             }
