@@ -48,6 +48,9 @@ function gulpImg (options) {
               that.push(file);
               cb();
             }
+          }else{
+            that.push(file);
+            cb();
           }
         });
     }
